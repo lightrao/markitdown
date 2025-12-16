@@ -46,7 +46,7 @@ def convert_all_files():
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(result.text_content)
             
-            print(f"[OK] Success")
+            print("[OK] Success")
             
         except Exception as e:
             print(f"[ERROR] Error converting {filename}: {e}")
